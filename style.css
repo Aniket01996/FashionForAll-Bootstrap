@@ -1,0 +1,209 @@
+.nav-bg {
+    background-color: #B0DCEC;
+}
+
+.navi-bar {
+    border-bottom: 1px solid white;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.banner-1 {
+    width: 80%;
+}
+
+.banner-2 {
+    margin-top: 30%;
+}
+
+.card-title {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.card-text1 {
+    font-size: 56px;
+}
+
+.mask-group {
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 80%;
+    position: relative;
+    bottom: 50px;
+}
+
+.registeration {
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #DCF0F7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand-container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBFAFF;
+    width: 90%;
+    height: 150px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem !important;
+}
+
+.ankara-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp {
+    display: flex;
+}
+
+.min-max {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.sidebar-grey {
+    height: 500px;
+}
+
+.circle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #3434a6;
+}
+
+.mrp-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+h6 {
+    font-weight: bolder;
+}
+
+.w-circle {
+    background-color: #DCF0F7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #3434a6;
+    border: 1px solid #3434a6;
+    color: whitesmoke;
+}
+
+.section {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.mask-img {
+    z-index: 10;
+}
+
+#dropdownButton {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3434a6;
+    color: #3434a6;
+}
+
+select {
+    border: 0px;
+    color: #3434a6;
+    background-color: white;
+}
+
+.youtube {
+    margin-left: 50px;
+}
+
+.big-text {
+    font-weight: 500;
+    color: #3434a6;
+    font-size: 50px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width : 768px) {
+    .mask-group {
+        display: none;
+    }
+
+    .brand-container {
+        display: none;
+    }
+
+    .card-title,
+    .card-text1 {
+        font-size: 34px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    .youtube {
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+
+    .shopYT {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 575px) {
+
+    .banner-1,
+    .banner-2 {
+        width: 90%;
+        height: 75%;
+        margin: 8px;
+    }
+}
